@@ -7,6 +7,8 @@ body {
 	font: 13px/20px black 'Droid Sans', Helvetica, Arial sans-serif;
 }
 
+ul { list-style-image:url('images/layout/dash.png');}
+
 
 /* ---------------------------------------------------------------------------- START OF HEADER */			
 
@@ -532,6 +534,8 @@ body header .box .wrapper nav ul li ul li a:hover {color: #3276b1;}
 
 /* ---------------------------------------------------------------------------- START OF body footer */
 
+body footer { background: #333345;}
+
 body footer .box {
 	position: relative;
 	float: left;
@@ -787,7 +791,7 @@ body footer .box .wrapper .affilations ul li a.open-e { background-position: -84
 body footer .box .wrapper .bottom { 
 	float: left;
 	width: 980px;
-	margin: 12px 0 0 20px;
+	margin: 12px 0 0 40px;
 }
 
 body footer .box .wrapper .bottom span { 
@@ -812,7 +816,7 @@ body footer .box .wrapper .bottom  a {
 body footer .box .wrapper .bottom  a.last { border: none;}
 body footer .box .wrapper .bottom  a:hover { color: #5b79c8;}
 
-body footer .box .wrapper .bottom div { margin-top: 10px;}
+body footer .box .wrapper .bottom div { margin-top: 3px;}
 
 body footer .box .wrapper .bottom div  a {
 	padding: 0 5px;
@@ -831,7 +835,7 @@ body footer .box .wrapper .bottom div  a.first { padding: 0 5px 0 0;}
 #content sidebar {
 	float: left;
 	width: 240px;
-	margin: 60px 0 0 60px;
+	margin: 50px 0 0 60px;
 }
 
 #content sidebar ul { 
@@ -871,6 +875,8 @@ body footer .box .wrapper .bottom div  a.first { padding: 0 5px 0 0;}
 	color: #62637d;
 	background: url('images/layout/sidebar/active.png') top right no-repeat;
 }
+
+#content sidebar img { margin-top: 30px;}
 
 /* ---------------------------------------------------------------------------- START OF STATIC PAGES */	
 
@@ -1064,6 +1070,15 @@ body footer .box .wrapper .bottom div  a.first { padding: 0 5px 0 0;}
 #content .static-wrapper .block .container h2 a { text-decoration: none; color: #37498b;}
 #content .static-wrapper .block .container h2 a:hover { color: #646d8b; }
 
+#content .static-wrapper .block .container h3 {
+	font-size: 20px;
+	line-height: 28px;
+	margin: 0;
+	font-weight: normal;
+	color: #2b98d0;
+	text-align: left;	
+}
+
 #content .static-wrapper .block .container h4 {
 	font-size: 18px;
 	line-height: 28px;
@@ -1076,6 +1091,17 @@ body footer .box .wrapper .bottom div  a.first { padding: 0 5px 0 0;}
 	float: left;
 	width: 100%;
 	margin: 20px 0 30px 0;
+}
+
+#content .static-wrapper .block .container section.jobs { margin: 60px 0 30px 0;}
+
+#content .static-wrapper .block .container section.jobs span {
+	float: left;
+	width: 100%;
+	margin: 5px 0 10px 0;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444;
 }
 
 #content .static-wrapper .block .container section .portrait { 
@@ -1162,8 +1188,15 @@ body footer .box .wrapper .bottom div  a.first { padding: 0 5px 0 0;}
 #content .static-wrapper .block .container section .grey-box ul { list-style-image:url('images/layout/dash.png');}
 
 #content .static-wrapper.rare { margin-top: 0; border: none;}
+#content .static-wrapper.grey { background: #eee;}
+
 #content .static-wrapper.rare .block .container section .details { margin: 0 20px 0 0;}
 #content .static-wrapper.rare .block .container section .details.undo { margin: 0 0 0 20px;}
+
+#content .static-wrapper.rare .block .container section .details .list { float: left; width: 100%; }
+#content .static-wrapper.rare .block .container section .details .list b { float: left; width: 100%;}
+#content .static-wrapper.rare .block .container section .details .list ul { margin: 0 0 20px 0;}
+#content .static-wrapper.rare .block .container section .details .list ul.tiny { float: left; width: 275px; }
 
 #content .static-wrapper.rare .block .container section .details.wide {
 	float: left;
